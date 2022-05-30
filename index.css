@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.nav{
+    background-color:rgb(229, 235, 240);
+    height: 90vh;
+    width: 15%;
+    padding: 40px 0px;
+   
+}
+.main{
+/* background-color: rebeccapurple; */
+width: 85%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.port{
+    height: 350px;
+    width: 750px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.nav li{
+    list-style-type: none;
+    padding: 10px 0px;
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+#btn{
+    position: absolute;
+    padding: 10px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.port img{
+    height: 200px;
+    width: 400;
+    right: 10%;
+    position: absolute;
+}
+#porttext{
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    left: 20px;
+    font-size: 56px;
+}
